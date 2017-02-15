@@ -10,7 +10,8 @@ $(document).ready(function(){
     $('.eMail').text(emailInput);
     $('.appTime').text(timeInput);
 
-    $('#conformation').open(a.href);
+    $('#conformation').show();
+
     event.preventDefault();
   });
 });
